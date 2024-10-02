@@ -136,10 +136,6 @@
           display: none !important;
         }
 
-        @media screen and (max-width: 442px) {
-          max-width: 384px;
-        }
-
         @media screen and (max-width: 768px) {
           max-width: 734px;
         }
@@ -149,6 +145,10 @@
           // max-width: 390px;
           width: 100%;
           transform: translateY(0);
+        }
+
+        @media screen and (max-width: 442px) {
+          max-width: 384px;
         }
       }
 
