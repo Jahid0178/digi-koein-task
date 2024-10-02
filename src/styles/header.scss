@@ -1,0 +1,51 @@
+header {
+  width: 100%;
+  height: 124px;
+  line-height: 124px;
+  background: rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+
+  .header-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+
+    .nav-wrapper {
+      display: flex;
+      gap: 3rem;
+      align-items: center;
+
+      .nav-link-wrapper {
+        display: flex;
+        gap: 2.5rem;
+        .nav-link {
+          color: #afafaf;
+          text-decoration: none;
+        }
+
+        @media screen and (max-width: 768px) {
+          display: none;
+        }
+      }
+    }
+
+    select {
+      width: 7.87rem;
+      height: 3rem;
+      border-radius: 0.563rem;
+      background: rgba($color: #ffffff, $alpha: 0.15);
+      outline: none;
+      border: 0;
+      color: #ffffff;
+      padding: 0 2rem;
+    }
+  }
+}

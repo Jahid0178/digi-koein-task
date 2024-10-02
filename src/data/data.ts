@@ -1,0 +1,171 @@
+import { FeatureType, NavLinkType } from "../typescript/types";
+import fundIcon from "../assets/icons/fund 1.png";
+import paymentIcon from "../assets/icons/operation 1.png";
+import exchangeIcon from "../assets/icons/forex 1.png";
+import frameIcon from "../assets/icons/frame.png";
+import chartIcon from "../assets/icons/chart.png";
+import payment2 from "../assets/icons/payment.png";
+import webIcon from "../assets/icons/web.png";
+
+export const navLinks: NavLinkType[] = [
+  {
+    id: "1",
+    title: "Home",
+    href: "/",
+  },
+  {
+    id: "2",
+    title: "What we do",
+    href: "#",
+  },
+  {
+    id: "3",
+    title: "What is DigiKoein?",
+    href: "#",
+  },
+  {
+    id: "4",
+    title: "Remittance",
+    href: "#",
+  },
+  {
+    id: "5",
+    title: "About",
+    href: "#",
+  },
+];
+
+export const footerLinks: {
+  title: string;
+  links: {
+    id: string;
+    title: string;
+    href: string;
+  }[];
+}[] = [
+  {
+    title: "Legal",
+    links: [{ id: "1", title: "Trademarks", href: "#" }],
+  },
+  {
+    title: "Sitemaps",
+    links: [
+      {
+        id: "1",
+        title: "Home",
+        href: "#",
+      },
+      {
+        id: "2",
+        title: "What is Digikoein?",
+        href: "#",
+      },
+      {
+        id: "3",
+        title: "What is DLT for Future Bank",
+        href: "#",
+      },
+      {
+        id: "4",
+        title: "Services",
+        href: "#",
+      },
+      {
+        id: "5",
+        title: "Terms & Conditions",
+        href: "#",
+      },
+    ],
+  },
+  {
+    title: "About",
+    links: [
+      {
+        id: "1",
+        title: "Contact",
+        href: "#",
+      },
+      {
+        id: "2",
+        title: "Blog",
+        href: "#",
+      },
+      {
+        id: "3",
+        title: "Litepaper",
+        href: "#",
+      },
+      {
+        id: "4",
+        title: "Community",
+        href: "#",
+      },
+      {
+        id: "5",
+        title: "Github",
+        href: "#",
+      },
+    ],
+  },
+];
+
+export const offersContent = [
+  {
+    id: "1",
+    icon: fundIcon,
+    title: "Fund Transfer",
+    description: [
+      {
+        id: "1",
+        text: `Fund transfer, also known as remittance, involves moving funds
+              from one place to another. Traditionally, banks have facilitated
+              this process through domestic and international banking networks
+              like SWIFT.`,
+      },
+      {
+        id: "2",
+        text: `In recent years, remittance companies have emerged, offering
+              services under new regulations and using technology such as mobile
+              devices. However, these companies face obstacles as they rely on
+              the traditional banking infrastructure, which restricts their
+              ability to adopt further technological advancements.`,
+      },
+    ],
+    btn: "",
+  },
+  {
+    id: "2",
+    icon: paymentIcon,
+    title: "Payment System",
+    description: [],
+    btnText: frameIcon,
+  },
+  {
+    id: "3",
+    icon: exchangeIcon,
+    title: "Currency Exchange",
+    description: [],
+    btnText: frameIcon,
+  },
+];
+
+export const features: FeatureType[] = [
+  {
+    id: "1",
+    icon: chartIcon,
+    title: "Trade Finance",
+    desc: "We offer green financing to help sellers, buyers, and financial institutions facilitate trade as well as create an atmosphere for non-conventional players",
+  },
+  {
+    id: "2",
+    icon: payment2,
+    title: "Cross-Border Payments",
+    desc: "We make the transaction easier between the payer and payee from different countries by ensuring low cost, high speed, unlimited access and sufficient transparency.",
+  },
+  {
+    id: "3",
+    icon: webIcon,
+    title: "Digital Identity",
+    desc: "We can help you build your online presence, and our digital infrastructure will allow financial institutions to validate identities without depending on physical documentation.",
+  },
+];

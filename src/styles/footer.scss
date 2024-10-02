@@ -1,0 +1,47 @@
+footer {
+  background-color: #00051b;
+  color: #ffffff;
+
+  .footer-content-wrapper {
+    display: grid;
+    grid-template-columns: 2fr repeat(3, 1fr);
+    gap: 2rem;
+
+    .footer-logo-wrapper {
+      max-width: 555px;
+      width: 100%;
+
+      > p {
+        margin-top: 1.063rem;
+        line-height: 1.62rem;
+      }
+
+      .copyright {
+        margin-top: 4.81rem;
+      }
+    }
+
+    .footer-link-title {
+      font-size: 1.37rem;
+      font-weight: 500;
+      margin-bottom: 2.5rem;
+    }
+
+    .footer-links-wrapper {
+      list-style-type: none;
+
+      display: flex;
+      flex-direction: column;
+      gap: 1.5rem;
+
+      > li > a {
+        text-decoration: none;
+        color: #ffffff;
+      }
+    }
+
+    @media screen and (max-width: 768px) {
+      grid-template-columns: 1fr;
+    }
+  }
+}
