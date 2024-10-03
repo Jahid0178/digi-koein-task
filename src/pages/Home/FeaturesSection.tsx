@@ -26,7 +26,7 @@ const FeaturesSection = () => {
               </button>
             </div>
           </div>
-          <div>
+          <div className="feature-slider-container">
             <div className="feature-slider-wrapper">
               <FeatureSlider swiperRef={swiperRef} />
             </div>

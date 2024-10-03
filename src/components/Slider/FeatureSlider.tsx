@@ -5,7 +5,7 @@ import FeaturedCard from "../Cards/FeaturedCard/FeaturedCard";
 
 interface FeatureSliderProps {
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
-  swiperRef?: any;
+  swiperRef: any;
 }
 
 const FeatureSlider = ({ swiperRef }: FeatureSliderProps) => {
@@ -17,11 +17,7 @@ const FeatureSlider = ({ swiperRef }: FeatureSliderProps) => {
       breakpoints={{
         640: {
           slidesPerView: 2,
-          spaceBetween: 20,
-        },
-        768: {
-          slidesPerView: 3,
-          spaceBetween: 40,
+          spaceBetween: 10,
         },
       }}
     >
