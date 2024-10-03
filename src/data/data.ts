@@ -200,4 +200,34 @@ export const features: FeatureType[] = [
     title: "Digital Identity",
     desc: "We can help you build your online presence, and our digital infrastructure will allow financial institutions to validate identities without depending on physical documentation.",
   },
+  {
+    id: "4",
+    icon: chartIcon,
+    title: "Clearing and Settlement",
+    desc: "We make the clearing and settlement process smoother so financial institutions can send and receive wire transfers multiple times daily.",
+  },
+  {
+    id: "5",
+    icon: payment2,
+    title: "Provenance ",
+    desc: "We offer an immutable and irreversible source of information that can track the true ownership of a product across the supply chain.",
+  },
+  {
+    id: "6",
+    icon: webIcon,
+    title: "Multi-Party Aggregation",
+    desc: "We build a shared master data repository with flexible data modelling capabilities that allow members to inquire about the master data objects and entities.",
+  },
+  {
+    id: "7",
+    icon: webIcon,
+    title: "Record Keeping",
+    desc: "We build a shared master data repository with flexible data modelling capabilities that allow members to inquire about the master data objects and entities.",
+  },
+  {
+    id: "8",
+    icon: webIcon,
+    title: "Re insurance",
+    desc: "We build a shared master data repository with flexible data modelling capabilities that allow members to inquire about the master data objects and entities.",
+  },
 ];
