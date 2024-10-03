@@ -9,7 +9,7 @@ const HeroSection = () => {
           <h1 className="hero-title">
             Free your Money with digital Blockchain / DHL Bank
           </h1>
-          <p>
+          <p className="hero-description">
             DIGI-KOEIN is a cryptocurrency, It&apos;s developed by Green Sked,
             led by financial experts, to transform the financial industry and
             enhance people's lives using Blockchain technology.
