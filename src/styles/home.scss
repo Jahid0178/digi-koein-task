@@ -64,6 +64,8 @@
   color: #fff;
 
   .container {
+    position: relative;
+
     .feature-wrapper {
       display: flex;
       flex-direction: row;
@@ -96,17 +98,11 @@
           margin-top: 1.25rem;
 
           button {
-            width: 3.813rem;
-            height: 3.375rem;
             background: rgba($color: #fff, $alpha: 0.2);
+            padding: 1rem;
             border: 0;
             border-radius: 0.875rem;
             cursor: pointer;
-
-            img {
-              width: 1.75rem;
-              height: 1.75rem;
-            }
           }
         }
       }
@@ -119,8 +115,26 @@
         overflow-x: hidden;
 
         .feature-slider-wrapper {
+          height: 350px;
+
+          .swiper {
+            width: 1090px;
+            position: absolute;
+            top: 50%;
+            left: 46.7%;
+            transform: translateY(-50%);
+
+            .swiper-wrapper .swiper-slide {
+              padding-right: 24px;
+            }
+
+            @media screen and (max-width: 1024px) {
+              left: 0;
+            }
+          }
+
           .featured-card {
-            height: 21.62rem;
+            min-width: 342px;
             background: #3d314f80;
             padding: 1.25rem;
             border-radius: 0.813rem;
