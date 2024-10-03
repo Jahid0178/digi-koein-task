@@ -16,12 +16,12 @@ export const navLinks: NavLinkType[] = [
   {
     id: "2",
     title: "What we do",
-    href: "#",
+    href: "#what-we-do",
   },
   {
     id: "3",
     title: "What is DigiKoein?",
-    href: "#",
+    href: "#what-is-digikoein",
   },
   {
     id: "4",
@@ -131,20 +131,52 @@ export const offersContent = [
               ability to adopt further technological advancements.`,
       },
     ],
-    btn: "",
+    btnText: frameIcon,
   },
   {
     id: "2",
     icon: paymentIcon,
     title: "Payment System",
-    description: [],
+    description: [
+      {
+        id: "1",
+        text: `Fund transfer, also known as remittance, involves moving funds
+              from one place to another. Traditionally, banks have facilitated
+              this process through domestic and international banking networks
+              like SWIFT.`,
+      },
+      {
+        id: "2",
+        text: `In recent years, remittance companies have emerged, offering
+              services under new regulations and using technology such as mobile
+              devices. However, these companies face obstacles as they rely on
+              the traditional banking infrastructure, which restricts their
+              ability to adopt further technological advancements.`,
+      },
+    ],
     btnText: frameIcon,
   },
   {
     id: "3",
     icon: exchangeIcon,
     title: "Currency Exchange",
-    description: [],
+    description: [
+      {
+        id: "1",
+        text: `Fund transfer, also known as remittance, involves moving funds
+              from one place to another. Traditionally, banks have facilitated
+              this process through domestic and international banking networks
+              like SWIFT.`,
+      },
+      {
+        id: "2",
+        text: `In recent years, remittance companies have emerged, offering
+              services under new regulations and using technology such as mobile
+              devices. However, these companies face obstacles as they rely on
+              the traditional banking infrastructure, which restricts their
+              ability to adopt further technological advancements.`,
+      },
+    ],
     btnText: frameIcon,
   },
 ];
