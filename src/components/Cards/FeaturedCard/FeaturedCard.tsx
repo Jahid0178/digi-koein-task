@@ -5,7 +5,6 @@ interface FeaturedCardProps {
 }
 
 const FeaturedCard = ({ feature }: FeaturedCardProps) => {
-  console.log(feature);
   return (
     <div className="featured-card">
       <div className="featured-icon-wrapper">
