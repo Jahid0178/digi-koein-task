@@ -7,7 +7,10 @@ const FeaturesSection = () => {
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const swiperRef = useRef<any>(null);
   return (
-    <section className="feature-section">
+    <section
+      className="feature-section"
+      id="what-we-do"
+    >
       <div className="container">
         <div className="feature-wrapper">
           <div className="feature-content">

@@ -1,6 +1,9 @@
 const AboutSection = () => {
   return (
-    <section className="about-section">
+    <section
+      className="about-section"
+      id="what-is-digikoein"
+    >
       <div className="container">
         <div className="about-wrapper">
           <div></div>
