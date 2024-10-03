@@ -29,6 +29,14 @@
       .hero-title {
         font-size: 4.37rem;
         margin: 0.1rem 0 0.688rem 0;
+        text-transform: uppercase;
+        font-weight: 800;
+      }
+
+      .hero-description {
+        max-width: 53.051rem;
+        width: 100%;
+        margin: 0 auto;
       }
 
       button {
@@ -88,11 +96,17 @@
           margin-top: 1.25rem;
 
           button {
+            width: 3.813rem;
+            height: 3.375rem;
             background: rgba($color: #fff, $alpha: 0.2);
-            padding: 1rem;
             border: 0;
             border-radius: 0.875rem;
             cursor: pointer;
+
+            img {
+              width: 1.75rem;
+              height: 1.75rem;
+            }
           }
         }
       }
@@ -244,6 +258,7 @@
     display: grid;
     grid-template-columns: 2fr repeat(2, 1fr);
     gap: 2rem;
+    transition: all 0.3s;
 
     .offer-card {
       min-height: 425px;
@@ -257,6 +272,19 @@
 
       h3 {
         font-size: 1.563rem;
+        text-wrap: nowrap;
+      }
+
+      p {
+        width: 644px;
+
+        @media screen and (max-width: 1024px) {
+          width: 100%;
+        }
+
+        @media screen and (max-width: 768px) {
+          width: 100%;
+        }
       }
 
       img {
@@ -278,6 +306,7 @@
           border: none;
           background-color: rgba($color: #fff, $alpha: 0.1);
           padding: 1rem;
+          cursor: pointer;
 
           img {
             width: 100%;
@@ -294,11 +323,23 @@
     }
 
     @media screen and (max-width: 1024px) {
-      grid-template-columns: repeat(2, 1fr);
+      grid-template-columns: repeat(2, 1fr) !important;
     }
 
     @media screen and (max-width: 768px) {
-      grid-template-columns: 1fr;
+      grid-template-columns: 1fr !important;
     }
+  }
+
+  .offer-expanded-1 {
+    grid-template-columns: 2fr 1fr 1fr;
+  }
+
+  .offer-expanded-2 {
+    grid-template-columns: 1fr 2fr 1fr;
+  }
+
+  .offer-expanded-3 {
+    grid-template-columns: 1fr 1fr 2fr;
   }
 }

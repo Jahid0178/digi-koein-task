@@ -15,6 +15,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   overflow-x: hidden;
+  position: relative;
 }
 
 .container {
@@ -35,6 +36,11 @@ body {
     width: 57px;
     height: 56px;
   }
+
+  h3 {
+    font-size: 1.563rem;
+    text-transform: uppercase;
+  }
 }
 
 section,
@@ -43,7 +49,7 @@ footer {
 }
 
 .btn {
-  width: 9.87rem;
+  width: 9.875rem;
   height: 3.5rem;
   font-size: 1.12rem;
   border-radius: 0.563rem;
